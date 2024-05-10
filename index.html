@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <h1>CADASTRAR</h1>
+    </header>
+    <main>
+        <section class="container">
+            <fieldset id="pessoais">
+                <legend>Dados Pessoais</legend>
+
+                <div class="coluna">
+                    <input type="text" placeholder="Nome" >
+                    <input type="text" placeholder="Sobrenome">
+                </div>
+                
+                <div class="coluna">
+                    <input type="text" placeholder="CPF"> 
+                </div>
+
+                <div class="coluna">
+                    <input type="date" placeholder="Data de Nascimento">
+                    <select id="genero">
+                        <option>Selecione</option>
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                    </select>
+                </div>
+                <div class="coluna">
+                    <input type="tel" placeholder="Telefone Celular">
+                    <input type="tel" placeholder="Telefone Fixo">
+                </div>
+                
+            </fieldset>
+            <fieldset id="acesso">
+                <legend>Dados de Acesso ao Site</legend>
+                <div class="coluna_email">
+                    <input type="email" placeholder="Digite seu E-mail">
+                </div>
+                <div class="coluna">
+                    <input type="password" placeholder="Senha">
+                    <input type="password" placeholder="Confirme sua Senha">
+                </div>
+            </fieldset>
+            <div class="final">
+                <div class="termos_uso">
+                    <input type="checkbox">
+                    <div class="texto_termo">Li e concordo com os <a href="https://www.google.com" target="_blank">termos de uso</a></div>
+                </div>
+                <div class="button">
+                    <button type="submit">Criar Conta</button>
+                </div>      
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>

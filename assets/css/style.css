@@ -1,0 +1,121 @@
+
+/* Configurações Gerais da Página */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container { 
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;    
+    align-items: center;
+    height: 70px;
+    background-color: rgb(227, 0, 0);
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    margin-left: 50px;
+    padding: 0;
+}
+
+/* Corpo */
+
+/* Dados Pessoais */
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#pessoais { 
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+}
+
+#pessoais input, select{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.coluna { 
+    display: flex;
+    flex:2;
+    justify-content: space-between
+}
+
+
+/* Dados de acesso ao site */
+#acesso { 
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+
+#acesso input {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.coluna_email{
+    display: flex;
+    flex:1;
+} 
+
+.coluna_email input{
+    flex: 1;
+}
+
+/* Termos de uso */
+
+.final {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.termos_uso {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+} 
+
+.termos_uso input {
+    height: 20px;
+    width: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.button button {
+    width: 90%;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(227, 0, 0);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.button button:hover {
+    background-color: rgb(150, 0, 0);
+}
